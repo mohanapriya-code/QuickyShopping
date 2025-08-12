@@ -1,0 +1,59 @@
+const ProductList=[
+    {
+        id:1,
+        title:"VIVO Y100 model ,128gb storage,Mobile",
+        Cat:"smartphones",
+        price:26000,
+        img:"./images/tp1.png"
+    },
+      {
+        id:2,
+        title:"Branded Smart watch with 48hrs capacity",
+        Cat:"smartwatch",
+        price:6000,
+        img:"./images/tp2.png"
+    },
+      {
+        id:3,
+        title:"Trendy Head phone with quality sounds",
+        Cat:"headphones",
+        price:2260,
+        img:"./images/tp3.png"
+    },
+      {
+        id:4,
+        title:"Headphone with covered box",
+        Cat:"headphones",
+        price:1500,
+        img:"./images/tp4.png"
+    },
+      {
+        id:5,
+        title:"VIVO Y18 model ,128gb storage,Mobile",
+        Cat:"smartphones",
+        price:18000,
+        img:"./images/tp5.png"
+    },
+      {
+        id:6,
+        title:"Intel, high performance CPU",
+        Cat:"cpu",
+        price:9500,
+        img:"./images/tp6.png"
+    },
+      {
+        id:7,
+        title:"High performance CPU with extra RAM",
+        Cat:"cpu",
+        price:6800,
+        img:"./images/tp7.png"
+    },
+      {
+        id:8,
+        title:"Stylish Watch with excellant perfomance",
+        Cat:"smartwatch",
+        price:3400,
+        img:'./images/tp8.png'
+    }
+]
+export default ProductList;

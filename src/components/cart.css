@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.emptycart{
+    width: 100%;
+    padding: 30px;
+}
+.cartcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: crimson;
+}
+.cartcontainer button{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    box-shadow: 0px 0px 10px gray;
+}
+.cartcontainer .link{
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+
+}
+.cartproduct{
+    width: 100%;
+    padding: 30px;
+}
+.cartproduct .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+ .content{
+    box-shadow: 0px 5px 10px gray;
+    padding: 30px;
+    
+}
+.cartdetails h2{
+    color: rgb(0, 28, 54);
+    width: 300px;
+}
+.content:hover{
+    transform: scale(1.1);
+}
+.cartdetails p{
+    margin-top: 30px;
+    color: blue;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    color: rgb(105, 104, 104);
+    display: flex;
+    gap: 5px;
+}
+.closed{
+   position: relative;
+left:45%;
+top: 20px;
+box-shadow: 0px 0px 10px gray;
+cursor: pointer;
+}
+.buynowbtn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: lightslategrey;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+}
+.buynowbtn:hover{
+   background-color: lightcoral;
+}

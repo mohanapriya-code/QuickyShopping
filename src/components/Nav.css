@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main_header{
+    width: 100%;
+    padding: 20px 40px;
+    border-bottom:  1px solid black;
+}
+.main_header .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_header img{
+    width: 150px;
+    height: 80px;
+}
+.main_header .container .search_box{
+    margin-right: 60px;
+}
+.main_header .container .search_box input{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid blue;
+    width: 300px;
+}
+.main_header .container .search_box button{
+    outline: none;
+    border: none;
+    padding: 13px 20px;
+    background-color: blue;
+    color: rgb(192, 184, 184);
+}
+.main_header .container .icon{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.main_header .container .icon .account{
+    display: flex;
+    gap: 10px;
+}
+.main_header .container.icon .link{
+    color: blue;
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-shadow: 0px 7px 30px rgb(138, 136, 136);
+}
+
+.header .container ul{
+    display: flex;
+}
+.header .container li{
+    margin-right: 20px;
+    list-style: none;
+}
+.header .container li:hover{
+    color: blue;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: blue;
+}
+.header .auth button{
+    margin-right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+@media screen and (max-width:530px){
+    .main_header .container .icon {
+       margin-left: 250px;
+       margin-top: -200px;
+        
+    }
+    .main_header{
+        padding: 20px;
+    }
+    .search_box{
+        display: flex;
+        padding-right: 10px;
+    }
+    .main_header .container .search_box input{
+        width:230px
+    }
+    .search_box button{
+        width: 80px;
+    }
+    
+}

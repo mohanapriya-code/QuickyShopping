@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+}
+.aboutcontainer{
+    padding:10px 50px;
+}
+.aboutcontainer p{
+    margin-bottom: 30px;
+    color: rgb(65, 63, 63);
+}
+.aboutcontainer li{
+    margin-bottom: 20px;
+    color: rgb(59, 57, 57);
+}
+.aboutcontainer h3{
+    margin-bottom: 10px;
+    color: orangered;
+}
+@media screen and (max-width:530px){
+    .about{
+        padding: 20px;
+    }
+    .aboutcontainer{
+        padding: 10px;
+    }
+    
+}

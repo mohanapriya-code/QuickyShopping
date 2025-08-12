@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Products{
+    width: 100%;
+    padding: 10px;
+    
+}
+.Products h1{
+    text-indent: 20px;
+    color: darkolivegreen;
+}
+.Products p{
+    text-indent: 20px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.Products .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Products .container .filter .categories{
+    text-indent: 20px;
+    color:teal;
+}
+.Products .container .filter .categories ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    color: rgb(65, 57, 57);
+    cursor: pointer;
+}
+.Products .container .filter .categories li{
+list-style: none;
+}
+.Products .product_box{
+    text-align: center;
+    /* height: 80vh; */
+}
+.Products .product_box .product_container .detailproduct button{
+ margin-left: 40%;
+}
+.Products .product_box .product_container .detailproduct .content1{
+   margin-top: 20px;
+   position: relative;
+   margin-bottom: 10%;
+}
+.Products .product_box .product_container .detailproduct .content1 h2{
+  color: crimson;
+}
+.Products .product_box .product_container .detailproduct .content1 p{
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  color: teal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 50px;
+}
+.Products .product_box .product_container .detailproduct .content1 .add{
+
+    position: absolute;
+    top: 100%;
+    right: 25%;
+    border: none;
+    outline: none;
+    background-color: teal;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: wheat;
+  width: 150px;
+  height: 40px;
+}
+.Products .product_box .product_container .detailproduct .content1 .add:hover{
+background-color: crimson;
+color: black;
+}
+.product .container .box .img-box .icon{
+    cursor: pointer;
+}
+
+.Products{
+    width: 100%;
+    padding: 20px 30px;
+}
+.Products .container1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.Products .container1 .box1{
+    /* width: 25%; */
+    border: 1px solid black;
+    padding-top: 30px;
+    position: relative;
+}
+.Products .container1 .box1:hover .icon1{
+    opacity: 1 !important;
+}
+.Products .container1 .box1 .img-box1{
+    text-align: center;
+
+}
+.Products .container1 .box1 .icon1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    font-size: 18px;
+    color: crimson;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.Products .container1 .box1 .icon1 span:hover{
+    color: blue;
+}
+.Products .container1 .box1 img{
+    width: 70%;
+    height: 200px;
+}
+.Products .container1 .box1 .detail1{
+    padding-left: 10px;
+    width: 250px;
+    margin-top: 0px;
+    box-shadow: 0px 30px 30px silver;
+    position: relative;
+   height: 130px;
+}
+.Products .container1 .box1 .detail1:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.Products .container1 .box1 .detail1 h4{
+   position: absolute;
+   right: 10px;
+   top: 80%;
+   color: blue;
+   font-weight: bold;
+}
+.Products .container1 .box1 .detail1 h3{
+margin: 0;
+}
+.Products .container1 .box1 .detail1 p{
+margin: 0;
+}
+@media screen and (max-width:530px){
+    .Products .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .Products .container .filter .categories ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

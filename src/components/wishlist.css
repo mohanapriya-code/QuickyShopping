@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wish{
+    color: rgb(240, 26, 26);
+    text-align: center;
+    margin-top: 20px;
+}
+.wishproduct{
+    width: 100%;
+   padding: 30px;
+}
+.wishbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.wishcontent{
+    width: 300px;
+    box-shadow: 0px 0px 20px gray;
+   }
+   .wishcontent h2{
+    color: blue;
+    padding: 10px;
+   }
+   .wishcontent h5{
+    color: gray;
+   }
+  
+   .wishcount{
+    color: crimson;
+    font-weight: bold;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+   font-size: large;
+
+   }
+   .wishcount span{
+    width:50%;
+   }
+   .wishcount button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px lightseagreen;
+    font-weight: bold;
+   }
+  
